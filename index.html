@@ -8,14 +8,31 @@
     <title>Code Quiz Challenge</title>
 </head>
 <body>
-    <div id= "wrapper"></div>
-    <button> View highscores</button>
-    <div id="timer"></div>
+
+        <div id="wrapper">
+            
+            <div id="currentTime"></div>
+            
+            <div id="questionsDiv">
+                
+                <h1>Highscores</h1>
+                
+                <ul id="highScore"></ul>
+
+               <button id="goBack">Go Back</button>
+            <button id="clear" value="reset">Clear Highscore</button>
    
-   <h1>Coding Quiz Challenge</h1>
-   <p> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answwer will penalize your score/time by ten seconds.</p>
+                <h1>Coding Quiz Challenge!</h1>
+   <p> Try to answer the following code-related questions within the 60 second time limit. Keep in mind that incorrect answwers will penalize your score/time by ten seconds. Good Luck!</p>
+
+   <ul id="choicesUl"></ul>
+   <!-- Buttons -->
+   <button id="startTime">Start Quiz</button>
+</div>
+
+</div>
    
-    <div class="start-btn"><button>Start Quiz</button> </div>
+    </div>
 </body>
 <script src="assets/script.js"></script>
 </html>
