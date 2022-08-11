@@ -94,9 +94,7 @@ li {
     border-top: 1px solid lightgray;
 }
 
-/* Start media queries */
-/* A Media Query max-width: 786px */
-@media screen and (max-width: 786px) {
+
 
 body {
     max-width: 786px;
@@ -121,14 +119,7 @@ margin-left: 20%;
     right: 5%;
     
 }
-}
 
-/* A Media Query max-width: 640px */
-@media screen and (max-width: 640px) {
-/* Resized content to fit 640px  */
-body {
-    min-width: 640px;
-}
 
 #wrapper {
 position: absolute;
@@ -139,4 +130,3 @@ a {
 }
 
 
-}
